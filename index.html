@@ -5,28 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <!--fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-  Perfume
+  <main>
+    <img src="images/image-product-desktop.jpg">
 
-  Gabrielle Essence Eau De Parfum
+    <aside>
+      <header>
+        <p style="text-transform: uppercase; letter-spacing: 4px; font-weight: 400;">Perfume</p>
+  
+        <h2>Gabrielle Essence Eau De Parfum</h2>
+      </header>
+  
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      Perfumer-Creator for the House of CHANEL.</p>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+      <div id="prices">
+        <p><span id="price">$149.99</span> <span id="discount">$169.99</span></p>
+      </div>
 
-  $149.99
-  $169.99
+      <p id="button">Add to Cart</p>
+  
+      
+    </aside>
 
-  Add to Cart
+
+
+  </main>
+
 
   <!--
   <div class="attribution">
